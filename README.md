@@ -1,6 +1,11 @@
-# wechatNews
-get wechat news based on wechat api
+# getWechatArticles
+get wechat articles based on wechat api
+基于微信接口获取公众号文章
 
+# 实现步骤
+1、通过appId和secret获取access_token
+2、调用公众号接口获取文章列表
+3、插入到数据库
 
 # Installation
 create table on postgresql
